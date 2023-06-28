@@ -50,5 +50,23 @@ Open '.Core_Nest-DGIL-CT-ds12.py' and change the default run_mode to train in pa
 4.3、Run the train script (Core_Nest-DGIL-CT-ds12.py).  
 4.4、Check the results in './log_CT/'.
 
+### Citation  
+If you find the code helpful in your resarch or work, please cite the following papers. 
+```
+@Article{Fan2023,
+  author  = {Xiaohong Fan and Yin Yang and Ke Chen and Yujie Feng and Jianping Zhang},
+  journal = {},
+  title   = {Nest-DGIL: Nesterov-optimized Deep Geometric Incremental Learning for Inverse Problems in CS Image Reconstruction},
+  year    = {2023},
+  month   = {},
+  pages   = {},
+  volume  = {},
+  doi     = {},
+}
+```
+
+### Acknowledgements  
+Thanks to the authors of ISTA-Net++ and FISTA-Net, our codes are adapted from the open source codes of ISTA-Net++ and FISTA-Net.   
+
 ### Contact  
 The code is provided to support reproducible research. If the code is giving syntax error in your particular python configuration or some files are missing then you may open an issue or directly email me at fanxiaohong@smail.xtu.edu.cn
