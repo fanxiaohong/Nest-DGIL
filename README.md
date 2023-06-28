@@ -1,4 +1,4 @@
-# Nest-DGIL
+# Nest-DGIL: Nesterov-optimized Deep Geometric Incremental Learning for Inverse Problems in CS Image Reconstruction
 
 This repository contains the natural image CS and sparse-view CT reconstruction pytorch codes for the following paper：  
 Xiaohong Fan, Yin Yang, Ke Chen, Yujie Feng, and Jianping Zhang*, “Nest-DGIL: Nesterov-optimized Deep Geometric Incremental Learning for Inverse Problems in CS Image Reconstruction”, 2023.  Under review.
