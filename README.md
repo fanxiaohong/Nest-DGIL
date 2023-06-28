@@ -12,5 +12,25 @@ scikit-image <= 0.16.2 (recommend 0.16.1, 0.16.2)
 torch-radon = 1.0.0
 ```
 
+### 1.Test natural image CS  
+1.1、Pre-trained models:  
+All pre-trained models for our paper are in './model'.  
+1.2、Prepare test data:  
+The original test sets are in './data/'.  
+1.3、Prepare code:  
+Open './Core-Nest-DGIL-natural-CS25.py' and change the default run_mode to test in parser (parser.add_argument('--mode', type=str, default='test', help='train or test')).  
+1.4、Run the test script (Core-Nest-DGIL-natural-CS25.py).  
+1.5、Check the results in './result/'.
+
+### 2.Train natural image CS  
+2.1、Prepare training data:  
+We use the same datasets and training data pairs as ISTA-Net++ for CS. Due to upload file size limitation, we are unable to upload training data directly. Here we provide a [link](https://pan.baidu.com/s/1ap07Jc3u0biCu8rxjB5wlA?pwd=hph4) to download the datasets for you.  
+2.2、Prepare measurement matrix:  
+The measurement matrixs are in './sampling_matrix/'.  
+2.3、Prepare code:  
+Open '.Core-Nest-DGIL-natural-CS25.py' and change the default run_mode to train in parser (parser.add_argument('--mode', type=str, default='train', help='train or test')).  
+2.4、Run the train script (Core-Nest-DGIL-natural-CS25.py).  
+2.5、Check the results in './log/'.
+
 ### Contact  
 The code is provided to support reproducible research. If the code is giving syntax error in your particular python configuration or some files are missing then you may open an issue or directly email me at fanxiaohong@smail.xtu.edu.cn
