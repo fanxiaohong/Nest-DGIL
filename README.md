@@ -33,7 +33,7 @@ Open '.Core-Nest-DGIL-natural-CS25.py' and change the default run_mode to train 
 2.5、Check the results in './log/'.
 
 ### 3.Test sparse-view CT  
-The torch-radon package is necessary for sparse-view CT reconstruction. 
+The torch-radon package is necessary for sparse-view CT reconstruction.    
 3.1、Pre-trained models:  
 All pre-trained models for our paper are in './model_CT'.  
 3.2、Prepare test data:  
