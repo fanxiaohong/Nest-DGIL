@@ -12,8 +12,6 @@ from time import time
 import matplotlib.pyplot as plt
 import random
 from torch_radon import Radon
-from metric import *
-from canny import CannyDetector
 import SimpleITK as sitk
 ###########################################################################
 def get_cond(cs_ratio, sigma, type):
