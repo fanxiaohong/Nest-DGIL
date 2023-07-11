@@ -4,7 +4,7 @@ import torchvision
 import torch.nn as nn
 import glob
 from skimage.measure import compare_ssim as ssim
-# from functions import *
+from functions import *
 import cv2
 from time import time
 import matplotlib.pyplot as plt
