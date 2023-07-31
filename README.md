@@ -13,6 +13,9 @@ torch-radon = 1.0.0 (for sparse-view CT)
 ```
 
 ### 1.Test natural image CS  
+Nest-DGIL reconstructs image patch-by-patch.   
+Nest-DGIL-T reconstructs the image by the entire image.   
+Nest-DGIL-W performs the same weighted reconstruction of the overlapping patch as CSformer.   
 1.1、Pre-trained models:  
 All pre-trained models for our paper are in './model'.  
 1.2、Prepare test data:  
