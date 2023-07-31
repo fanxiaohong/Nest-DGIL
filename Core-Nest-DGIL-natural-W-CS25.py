@@ -24,7 +24,7 @@ from torch.utils.data import Dataset, DataLoader
 import csdata_fast
 import torch.nn.functional as F
 
-parser = ArgumentParser(description='Nest-DGIL')
+parser = ArgumentParser(description='Nest-DGIL-W')
 parser.add_argument('--model_name', type=str, default='Nest-DGIL', help='model name')
 parser.add_argument('--start_epoch', type=int, default=0, help='epoch number of start training')
 parser.add_argument('--end_epoch', type=int, default=200, help='epoch number of end training')

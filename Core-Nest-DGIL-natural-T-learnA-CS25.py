@@ -20,7 +20,7 @@ import csdata_fast
 from torch.nn import init
 import torch.nn.functional as F
 
-parser = ArgumentParser(description='Nest-DGIL-learnA')
+parser = ArgumentParser(description='Nest-DGIL-T-learnA')  # test with the entire image
 parser.add_argument('--model_name', type=str, default='Nest-DGIL-learnA', help='model name')
 parser.add_argument('--start_epoch', type=int, default=0, help='epoch number of start training')
 parser.add_argument('--end_epoch', type=int, default=200, help='epoch number of end training')

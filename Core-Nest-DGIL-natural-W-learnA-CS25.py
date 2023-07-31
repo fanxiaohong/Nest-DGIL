@@ -24,7 +24,7 @@ import csdata_fast
 from torch.nn import init
 import torch.nn.functional as F
 
-parser = ArgumentParser(description='Nest-DGIL-learnA')
+parser = ArgumentParser(description='Nest-DGIL-W-learnA')
 parser.add_argument('--model_name', type=str, default='Nest-DGIL-learnA', help='model name')
 # parser.add_argument('--model_name', type=str, default='PINestGIL-layer6-L1loss-learnA', help='model name')
 parser.add_argument('--start_epoch', type=int, default=0, help='epoch number of start training')
