@@ -28,7 +28,7 @@ We use the same datasets and training data pairs as ISTA-Net++ for CS. Due to up
 2.2、Prepare measurement matrix:  
 The measurement matrixs are in './sampling_matrix/'.  
 2.3、Prepare code:  
-Open '.Core-Nest-DGIL-natural-CS25.py' and change the default run_mode to train in parser (parser.add_argument('--mode', type=str, default='train', help='train or test')).  
+Open '.Core-Nest-DGIL-natural-W-CS25.py' and change the default run_mode to train in parser (parser.add_argument('--mode', type=str, default='train', help='train or test')).  
 2.4、Run the train script (Core-Nest-DGIL-natural-W-CS25.py).  
 2.5、Check the results in './log/'.
 
