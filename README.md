@@ -12,17 +12,14 @@ scikit-image <= 0.16.2 (recommend 0.16.1, 0.16.2)
 torch-radon = 1.0.0 (for sparse-view CT)
 ```
 
-### 1.Test natural image CS  
-Nest-DGIL reconstructs image patch-by-patch.   
-Nest-DGIL-T reconstructs the image by the entire image.   
-Nest-DGIL-W performs the same weighted reconstruction of the overlapping patch as CSformer.   
+### 1.Test natural image CS    
 1.1、Pre-trained models:  
 All pre-trained models for our paper are in './model'.  
 1.2、Prepare test data:  
 The original test sets are in './data/'.  
 1.3、Prepare code:  
-Open './Core-Nest-DGIL-natural-CS25.py' and change the default run_mode to test in parser (parser.add_argument('--mode', type=str, default='test', help='train or test')).  
-1.4、Run the test script (Core-Nest-DGIL-natural-CS25.py).  
+Open './Core-Nest-DGIL-natural-W-CS25.py' and change the default run_mode to test in parser (parser.add_argument('--mode', type=str, default='test', help='train or test')).  
+1.4、Run the test script (Core-Nest-DGIL-natural-W-CS25.py).  
 1.5、Check the results in './result/'.
 
 ### 2.Train natural image CS  
@@ -32,7 +29,7 @@ We use the same datasets and training data pairs as ISTA-Net++ for CS. Due to up
 The measurement matrixs are in './sampling_matrix/'.  
 2.3、Prepare code:  
 Open '.Core-Nest-DGIL-natural-CS25.py' and change the default run_mode to train in parser (parser.add_argument('--mode', type=str, default='train', help='train or test')).  
-2.4、Run the train script (Core-Nest-DGIL-natural-CS25.py).  
+2.4、Run the train script (Core-Nest-DGIL-natural-W-CS25.py).  
 2.5、Check the results in './log/'.
 
 ### 3.Test sparse-view CT  
