@@ -5,6 +5,10 @@ Xiaohong Fan, Yin Yang, Ke Chen, Yujie Feng, and Jianping Zhang*, “Nest-DGIL: 
 
 Xiaohong Fan, Yin Yang, Ke Chen, Yujie Feng, and Jianping Zhang*, “Nest-DGIL: Nesterov-optimized Deep Geometric Incremental Learning for CS Image Reconstruction”, arXiv, August 2023. [[pdf]](https://arxiv.org/pdf/2308.03807.pdf) 
 
+
+[Fig1_NestDGIL_Chart_sc.pdf](https://github.com/fanxiaohong/Nest-DGIL/files/12505131/Fig1_NestDGIL_Chart_sc.pdf)
+
+
 These codes are built on PyTorch and tested on Ubuntu 18.04/20.04 (Python3.x, PyTorch>=0.4) with Intel Xeon CPU E5-2630 and Nvidia Tesla V100 GPU.
 
 ### Environment  
