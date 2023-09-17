@@ -59,13 +59,13 @@ If you find the code helpful in your resarch or work, please cite the following 
 ```
 @Article{Fan2023,
   author  = {Xiaohong Fan and Yin Yang and Ke Chen and Yujie Feng and Jianping Zhang},
-  journal = {},
+  journal = {IEEE Transactions on Computational Imaging},
   title   = {Nest-DGIL: Nesterov-optimized Deep Geometric Incremental Learning for CS Image Reconstruction},
   year    = {2023},
-  month   = {},
+  month   = {Sep.},
   pages   = {},
   volume  = {},
-  doi     = {},
+  doi     = {10.1109/TCI.2023.3315853},
 }
 ```
 
