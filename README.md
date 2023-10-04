@@ -69,7 +69,7 @@ If you find the code helpful in your resarch or work, please cite the following 
   title   = {Nest-DGIL: Nesterov-optimized Deep Geometric Incremental Learning for CS Image Reconstruction},
   year    = {2023},
   month   = {Sep.},
-  pages   = {819-833},
+  pages   = {819--833},
   volume  = {9},
   doi     = {10.1109/TCI.2023.3315853},
 }
