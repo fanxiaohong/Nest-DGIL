@@ -23,7 +23,7 @@ torch-radon = 1.0.0 (for sparse-view CT)
 
 ### 1.Test natural image CS    
 1.1、Pre-trained models:  
-All pre-trained models for our paper are in './model'.  
+All pre-trained models for our paper are in './model/'.  
 1.2、Prepare test data:  
 The original test sets are in './data/'.  
 1.3、Prepare code:  
